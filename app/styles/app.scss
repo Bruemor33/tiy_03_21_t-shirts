@@ -6,6 +6,13 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
 
+
+/*******************************************************************************************
+GLOBAL
+*******************************************************************************************/
+
+
+
 *,
 *::before,
 *::after {
@@ -15,3 +22,88 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+
+
+/*******************************************************************************************
+HEADER
+*******************************************************************************************/
+
+
+
+
+.nav {
+  display: inline;
+  background-color: #000000;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding-left: 100px;
+  padding-top: 14px;
+  height: 80px;
+
+  .company {
+    display: inline-block;
+    color: #fff;
+  }
+
+  .logo {
+    display: inline-block;
+    color: #fff;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+  }
+
+  .styles {
+    display: inline-block;
+    color: #fff;
+  }
+
+  .cart {
+    display: inline-block;
+    color: #fff;
+  }
+}
+
+
+
+
+/*******************************************************************************************
+MAIN
+*******************************************************************************************/
+
+
+
+
+.body {
+  background-color: #383838;
+}
+
+.content-container {
+  // background-image: url(../images/skywars.png);
+  // background-position: ;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  background-color: #393939;
+  height: 600px;
+  width: 100%;
+}
+
+
+
+
+/*******************************************************************************************
+FOOTER
+*******************************************************************************************/
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************
+GLOBAL
+*******************************************************************************************/
